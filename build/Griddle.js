@@ -8781,7 +8781,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    var nodes = this.props.data.map(function (row, index) {
-	      return React.createElement(that.props.customComponent, { data: row, metadataColumns: that.props.metadataColumns, key: index, globalData: that.props.globalData, addtionalData: index });
+	      return React.createElement(that.props.customComponent, { data: row, metadataColumns: that.props.metadataColumns, key: index, globalData: that.props.globalData, addtionalData: { index: index } });
 	    });
 
 	    var footer = this.props.showPager && this.props.pagingContent;

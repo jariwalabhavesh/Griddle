@@ -26,7 +26,7 @@ var CustomRowComponentContainer = React.createClass({
     }
 
     var nodes = this.props.data.map(function(row, index){
-        return <that.props.customComponent data={row} metadataColumns={that.props.metadataColumns} key={index} globalData={that.props.globalData} addtionalData={index}/>
+        return <that.props.customComponent data={row} metadataColumns={that.props.metadataColumns} key={index} globalData={that.props.globalData} addtionalData={{index}}/>
     });
 
     var footer = this.props.showPager&&this.props.pagingContent;
