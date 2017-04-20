@@ -459,6 +459,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	        //This will updaet the column Metadata
 	        this.columnSettings.columnMetadata = nextProps.columnMetadata;
+	        this.rowSettings.rowMetadata = nextProps.rowMetadata;
 	        if (nextProps.results.length > 0) {
 	            var deepKeys = deep.keys(nextProps.results[0]);
 
@@ -8780,7 +8781,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    var nodes = this.props.data.map(function (row, index) {
-	      return React.createElement(that.props.customComponent, { data: row, metadataColumns: that.props.metadataColumns, key: index, globalData: that.props.globalData });
+	      return React.createElement(that.props.customComponent, { data: row, metadataColumns: that.props.metadataColumns, key: index, globalData: that.props.globalData, addtionalData: index });
 	    });
 
 	    var footer = this.props.showPager && this.props.pagingContent;
