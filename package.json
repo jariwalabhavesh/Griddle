@@ -1,5 +1,5 @@
 {
-  "name": "griddle-react",
+  "name": "jb-griddle-react",
   "version": "0.8.1",
   "description": "Griddle - A fast and flexible grid component for React.",
   "keywords": [
@@ -53,12 +53,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GriddleGriddle/Griddle.git"
+    "url": "https://github.com/jumpbytehq/Griddle.git"
   },
   "author": "GriddleGriddle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GriddleGriddle/Griddle/issues"
+    "url": "https://github.com/jumpbytehq/Griddle/issues"
   },
-  "homepage": "https://github.com/GriddleGriddle/Griddle"
+  "homepage": "https://github.com/jumpbytehq/Griddle"
 }
